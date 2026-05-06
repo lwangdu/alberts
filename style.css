@@ -1,0 +1,89 @@
+/*
+Theme Name: Alberts
+Theme URI: https://github.com/lwangdu
+Author: Lobsang Wangdu
+Author URI: https://www.alberts.com
+Description: Alberts Experience Tibet
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 7.2.24
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentytwentyfour
+Text Domain: alberts
+Tags: Alberts twentytwentyfour child theme for Bruce Alberts' website.
+*/
+
+
+/* -- Forms -- */
+
+input,
+select,
+textarea {
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--contrast);
+	border-radius: 0;
+	color: var(--wp--preset--color--contrast);
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--medium);
+	font-weight: var(--wp--custom--font-weight--light);
+	line-height: var(--wp--custom--line-height--body);
+	padding: 10px 20px;
+	width: 100%;
+}
+
+input:focus,
+textarea:focus {
+	background-color: var(--wp--preset--color--neutral);
+	outline: 2px solid var(--wp--preset--color--accent);
+	outline-offset: 2px;
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+.wp-block-site-title,
+.wp-block-site-title a,
+.wp-block-site-title a:hover,
+.wp-block-site-title a:focus,
+.wp-block-search__button,
+.wp-block-search__button:hover,
+.wp-block-search__button:focus,
+.wp-block-read-more,
+.wp-block-read-more:hover,
+.wp-block-read-more:focus,
+.wp-element-button,
+.wp-element-button:hover,
+.wp-element-button:focus,
+.wp-block-button__link,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+	text-decoration: none !important;
+	text-decoration-line: none !important;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--contrast);
+	font-size: var(--wp--preset--font-size--small);
+	opacity: 0.5;
+}
+
+#wp-skip-link:focus {
+	background: var(--wp--preset--color--base-2);
+	color: var(--wp--preset--color--accent);
+	outline: 2px solid var(--wp--preset--color--accent);
+	outline-offset: 2px;
+}
