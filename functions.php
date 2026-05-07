@@ -94,7 +94,7 @@ add_action( 'init', 'alberts_register_block_styles' );
  * Use the Alberts logo on the login screen.
  */
 function alberts_login_logo() {
-	$logo_path = '/assets/images/Alberts-Logo-180.png';
+	$logo_path = '/assets/images/Alberts-Logo.png';
 
 	if ( ! file_exists( get_stylesheet_directory() . $logo_path ) ) {
 		return;

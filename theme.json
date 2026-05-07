@@ -64,6 +64,12 @@
 					"color": "#023662",
 					"name": "Accent / Five",
 					"slug": "accent-5"
+				},
+
+				{
+					"color": "#0872b4",
+					"name": "Accent / six",
+					"slug": "accent-6"
 				}
 			]
 		},
