@@ -31,7 +31,7 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#636363",
+					"color": "#4a4a4a",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
@@ -67,8 +67,8 @@
 				},
 
 				{
-					"color": "#0872b4",
-					"name": "Accent / six",
+					"color": "#005282",
+					"name": "Accent / Six",
 					"slug": "accent-6"
 				}
 			]
