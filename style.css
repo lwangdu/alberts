@@ -7,7 +7,7 @@ Description: Alberts Experience Tibet
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 7.2.24
-Version: 1.0.5
+Version: 1.0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: twentytwentyfour
@@ -79,6 +79,11 @@ textarea {
 	color: var(--wp--preset--color--contrast);
 	font-size: var(--wp--preset--font-size--small);
 	opacity: 0.5;
+}
+
+#wp-skip-link {
+	background: var(--wp--preset--color--base-2);
+	color: var(--wp--preset--color--contrast);
 }
 
 #wp-skip-link:focus {
